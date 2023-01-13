@@ -6,7 +6,7 @@ class Matrix {
         this.createBody()
     }
 
-
+    // This method make a matrix of nxn
     reduceRows(n){
         this.rows = n 
         this.columns = n
@@ -72,7 +72,3 @@ class Matrix {
         }
     }
 }
-
-let matrix = new Matrix(10,10)
-matrix.reduceRows(10)
-console.log(matrix)
